@@ -36,10 +36,10 @@ export const HomePage = () => {
             {!city ? (
                 <Feedback /> // Show feedback message if no city is selected
             ) : (
-                <>
+                <div className="flex flex-col gap-4">
                     <CityDetails /> 
                     <DayWeather /> 
-                </>
+                </div>
             )}
         </div>
     );
