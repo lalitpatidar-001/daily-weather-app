@@ -13,6 +13,6 @@ cd daily-weather-app
 * Run Development Server
 ```shell
 npm install
-npm run dev
+npm start
 ```
 Done with setup 😊😊 Enjoy the application
