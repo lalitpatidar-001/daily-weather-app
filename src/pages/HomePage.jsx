@@ -37,8 +37,8 @@ export const HomePage = () => {
                 <Feedback /> // Show feedback message if no city is selected
             ) : (
                 <>
-                    <CityDetails /> // Show city details component
-                    <DayWeather /> // Show day weather component
+                    <CityDetails /> 
+                    <DayWeather /> 
                 </>
             )}
         </div>
